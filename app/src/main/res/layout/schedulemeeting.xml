@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/colorPrimary">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TITLE"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="START DATE"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="START TIME"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="END DATE"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="END TIME"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ADD FRIENDS"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ENTER MEETING LOCATION"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="GET FRIEND LOCATION"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/sem"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_above="@+id/ListingContacts"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="0.17"
+        android:text="SCHEDULE"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/ml"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_above="@+id/ListingContacts"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="0.17"
+        android:text=" MEETING LIST"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
